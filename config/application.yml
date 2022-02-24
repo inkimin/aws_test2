@@ -1,0 +1,5 @@
+DEVISE_JWT_SECRET_KEY: "t+e8mVLyY6Ha+o32tE3RzDNn18Kd0k/QZ4s0Am2snjgc899mrYIF3M84T1N2Widu7hXS9EiGNS+UM1qlgRrEStQxGu/jLRfFxj/TyOybxj3glx9xFx6+rY8uaQ9TB8z1cpKC/ArjEEW5t2wrDSYVUsmQB3CRRaaFmG5j4joepssVI98AFkEYBaZNH5kWbpw1IDnY3mgMH6MiWddEI52wRhaNjBuvQjke819PBYx/ltcXiBk4Kt3D39i8X0fbEwlsY/vh+lCNJLgF/lVtMc9LoWLhxjt/fhw6JotUwRceFRBqwHu7kJMafEPphzQh7xnAb4SECe3JBa4a2akb+rLplB9lpWaGXPUh5wsg3eO8Gad5LscmCw5RdHAGX0e5PLiA2MRW6Q7eDf1MSg3N6hqA7bxXl/9SidWG3yAt--S8zWED1qqbEdRS4l--ozEIjDflYwwbYhUqdkL6sA=="
+DB_NAME: "databasetest1" # DB 테이블 이름 (아무렇게 지어도 됩니다.)
+RDS_End_Point: "databasetest1.cy0it0y4w4zf.ap-northeast-2.rds.amazonaws.com"
+RDS_MASTER_NAME: "admin" # RDS 계정
+RDS_PASSWORD: "tkfkd324" # RDS 마스터 암호
