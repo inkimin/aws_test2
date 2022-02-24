@@ -4,18 +4,18 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password: "pw123"
-  host: 'databasetest1.cy0it0y4w4zf.ap-northeast-2.rds.amazonaws.com'
-  port: 3306
+  #host: 'databasetest1.cy0it0y4w4zf.ap-northeast-2.rds.amazonaws.com'
+  #port: 3306
   #socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *default
   #secret_key_base: static_secret_key
-  database: mytube_development
-  host: 'databasetest1.cy0it0y4w4zf.ap-northeast-2.rds.amazonaws.com'
-  username: admin
-  password: "tkfkd324"
-  database: databasetest1
+  #database: mytube_development
+  #host: 'databasetest1.cy0it0y4w4zf.ap-northeast-2.rds.amazonaws.com'
+  #username: admin
+  #password: "tkfkd324"
+  #database: databasetest1
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
